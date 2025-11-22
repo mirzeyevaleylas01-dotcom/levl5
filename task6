@@ -1,0 +1,18 @@
+#reqemlercemi
+#include <iostream>
+using namespace std;
+
+void digitSum(int n){
+    int sum = 0;
+    while(n > 0){
+        sum += n % 10;
+        n /= 10;
+    }
+    cout << sum << endl;
+}
+
+int main(){
+    int x;
+    cin >> x;
+    digitSum(x);
+}
