@@ -1,0 +1,18 @@
+#kvadratinperimetri \ve sahesi
+#include <iostream>
+using namespace std;
+
+void sahe(int x){
+    cout << x * x << endl;
+}
+
+void peri(int x){
+    cout << x * 4 << endl;
+}
+
+int main(){
+    int a;
+    cin >> a;
+    sahe(a);
+    peri(a);
+}
