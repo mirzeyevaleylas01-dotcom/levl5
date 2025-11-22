@@ -1,0 +1,12 @@
+1-100arasicütededler
+#include <iostream>
+using namespace std;
+
+void evenNumbers(){
+    for(int i = 2; i <= 100; i += 2)
+        cout << i << " ";
+}
+
+int main(){
+    evenNumbers();
+}
