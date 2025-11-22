@@ -1,0 +1,18 @@
+#daireninsahesive perimetri
+#include <iostream>
+using namespace std;
+
+void circleArea(int r){
+    cout << 3.14 * r * r << endl;
+}
+
+void circlePeri(int r){
+    cout << 2 * 3.14 * r << endl;
+}
+
+int main(){
+    int r;
+    cin >> r;
+    circleArea(r);
+    circlePeri(r);
+}
